@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Upload</title>
+</head>
+<body>
+
+<h2>Image Upload Form</h2>
+
+<form method="post" enctype="multipart/form-data">
+
+    Select Image:
+    <input type="file" name="image" accept="image/*">
+
+    <br><br>
+
+    <input type="submit" value="Upload">
+
+</form>
+
+<br>
+
+<?php
+echo $message;
+?>
+
+</body>
+</html>
+```
